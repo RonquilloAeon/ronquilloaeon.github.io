@@ -1,0 +1,52 @@
+//
+// Colors
+// From https://coolors.co/171a21-617073-7a93ac-3066be-ff8c42
+//
+
+$color-white = #fff
+$color-black = #171A21 // eerie black
+
+$color-mono-1 = #617073 // nickel
+$color-mono-2 = #7A93AC // shadow blue
+$color-accent-1 = #3066BE // true blue
+$color-accent-2 = #FF8C42 // mango tango
+
+//
+// Global styles
+//
+
+html,
+body
+  position absolute
+  width 100%
+  height 100%
+  top 0
+  right 0
+  bottom 0
+  left 0
+  margin 0
+
+.align-center
+  text-align center
+
+.box > [class *= "pure-u"]
+  box-sizing border-box
+  padding 10px
+
+.clear
+  &:after
+    content ""
+    display table
+    clear both
+
+.left
+  float left
+
+.pure-g [class *= "pure-u"]
+  color $color-black
+  font-family "Roboto", sans-serif
+  font-size 16px
+  line-height 1.25em
+
+.right
+  float right
