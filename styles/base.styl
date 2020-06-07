@@ -11,6 +11,21 @@ $color-mono-2 = #7A93AC // shadow blue
 $color-accent-1 = #3066BE // true blue
 $color-accent-2 = #FF8C42 // mango tango
 
+// Make helper classes for colors
+$colors = ('white' $color-white),
+  ('black' $color-black),
+  ('mono-1' $color-mono-1),
+  ('mono-2' $color-mono-2),
+  ('accent-1' $color-accent-1),
+  ('accent-2' $color-accent-2)
+
+for $color in $colors
+  .bg-{$color[0]}
+    background-color $color[1]
+
+  .color-{$color[0]}
+    color $color[1]
+
 //
 // Global styles
 //

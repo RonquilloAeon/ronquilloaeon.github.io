@@ -1,3 +1,39 @@
+.bg-white {
+  background-color: #fff;
+}
+.color-white {
+  color: #fff;
+}
+.bg-black {
+  background-color: #171a21;
+}
+.color-black {
+  color: #171a21;
+}
+.bg-mono-1 {
+  background-color: #617073;
+}
+.color-mono-1 {
+  color: #617073;
+}
+.bg-mono-2 {
+  background-color: #7a93ac;
+}
+.color-mono-2 {
+  color: #7a93ac;
+}
+.bg-accent-1 {
+  background-color: #3066be;
+}
+.color-accent-1 {
+  color: #3066be;
+}
+.bg-accent-2 {
+  background-color: #ff8c42;
+}
+.color-accent-2 {
+  color: #ff8c42;
+}
 html,
 body {
   position: absolute;
@@ -33,10 +69,19 @@ body {
 .right {
   float: right;
 }
+.section {
+  width: 100%;
+}
+.section.padded {
+  padding: 50px 0;
+}
 .container {
-  max-width: 1140px;
+  max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+}
+.container p {
+  font-size: 1.125em;
+  line-height: 1.6667em;
 }
 .hero {
   padding: 50px 0;
@@ -44,4 +89,6 @@ body {
 h1 {
   margin: 0;
   font-family: "Overpass", sans-serif;
+  font-size: 3em;
+  line-height: 1.25em;
 }
