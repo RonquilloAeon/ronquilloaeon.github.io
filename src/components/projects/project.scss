@@ -1,0 +1,17 @@
+@import "../../styles/constants";
+
+.project {
+    a:link, a:visited {
+        color: $champagne;
+    }
+
+    a:hover, a:active {
+        color: $cadet-blue;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-family: 'Source Code Pro', monospace;
+        color: $champagne;
+    }
+}
